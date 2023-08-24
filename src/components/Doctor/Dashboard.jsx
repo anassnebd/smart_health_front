@@ -1,7 +1,7 @@
 import React,  { useState, useEffect } from 'react'
-import SidebarAdmin from './SidebarAdmin'
+import SidebarDoctor from './SidebarDoctor';
 import PersonImg from '../../assets/images/person.png'
-import './admin.css'
+import './doctor.css'
 import { ResponsiveContainer, PieChart,CartesianGrid, Pie, Cell,BarChart, Bar, XAxis, YAxis, Tooltip, Legend, Label } from 'recharts';
 
 const data = [
@@ -49,11 +49,9 @@ const renderCustomizedLabel = ({
 
 
 function Dashboard() {
-const [progress, setProgress] = useState();
-
   return (
     <div className='flex'>
-        <SidebarAdmin/>
+        <SidebarDoctor/>
         <div className='w-10/12'>
           <div style={{ width: '400px', height: 300 }}>
             <ResponsiveContainer>

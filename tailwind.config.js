@@ -6,7 +6,12 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'royal_purple': '#5138EE'
+        'royal_purple': '#5138EE',
+        'ice_purple':'#EDE8FF',
+        'icon_gray': '#D2D3D5',
+        'back_gray': '#F9F9F9',
+        'second_royal_blue': '#5272E9'
+
       }
     },
   },

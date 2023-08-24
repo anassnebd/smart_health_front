@@ -16,3 +16,13 @@
 .input_login{
     border: 2px solid rgb(229, 231, 235);
 }
+
+
+.sidebar_links:hover{
+    color: white;
+    background-color: #5138EE;
+}
+
+.sidebar_links> p{
+    font-family: 'LouisGeorgeBold';
+}
